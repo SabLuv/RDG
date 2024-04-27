@@ -1,0 +1,162 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #251a25;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  border: 0;
+}
+
+.wrapper-1 {
+  justify-content: start;
+  display: flex;
+  position: absolute;
+}
+
+/* header */
+.fons {
+  width: 100%;
+  height: 170px;
+  background-image: url(/assets/fon.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center 30%;
+  border-bottom: 4px solid #a215da;
+}
+
+.nav-1 {
+  width: 250px;
+  bottom: 110px;
+  text-align: center;
+  margin-left: 15px;
+  position: relative;
+}
+
+.text-1 {
+  color: white;
+  font-size: 32px;
+  margin: 15px 0;
+  position: relative;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 100px;
+  background-image: url(/assets/logo.jpg);
+  border: 4px solid #a215da;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* tg BOT */
+.tg-bot {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #627fcf;
+  color: white;
+  font-size: 20px;
+  transition: all 0.3s;
+}
+
+.tg-bot:hover {
+  background-color: #5670b6;
+}
+
+/* button-click */
+.button-click {
+  background-color: #1b243a;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  transition: all 0.3s;
+}
+
+.tg-bot-a {
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+/* develop SHARCK */
+.tg-develop {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #cf62cf;
+  color: white;
+  font-size: 20px;
+  transition: all 0.3s;
+}
+
+.tg-develop:hover {
+  background-color: #a852a8;
+}
+
+.tg-develop-a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+hr {
+  width: 170px;
+  height: 3px;
+  background-color: #fff;
+  margin: 20px;
+}
+
+/* main */
+main {
+  margin-top: 20px;
+  width: 100%;
+  margin-left: 20px;
+  text-align: left;
+  padding: 15px;
+  color: white;
+}
+
+/* команды для бота */
+.commands {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #444444;
+  color: white;
+  font-size: 20px;
+  transition: all 0.3s;
+  margin-bottom: 20px;
+}
+
+.commands:hover {
+  background-color: #2b2b2b;
+}
+
+.commands:active {
+  background-color: #181818;
+}
+
+/* донат */
+.donat {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #55c04c;
+  color: white;
+  font-size: 20px;
+  transition: all 0.3s;
+}
+
+.donat:hover {
+  background-color: #41913a;
+}
+
+.donat:active {
+  background-color: #32742d;
+}
