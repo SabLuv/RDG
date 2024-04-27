@@ -4,6 +4,16 @@ let logoNode = document.querySelector(`#logo`);
 let textNode = document.querySelector(`#text-1`);
 let commandsNode = document.querySelector(`#commands`);
 let mainNode = document.querySelector(`#main`);
+let developNode = document.querySelector(`#develop`)
+
+
+bTextNode.addEventListener(`click`, function() {
+    bTextNode.innerHTML = `Telegram Bot :D`
+});
+
+developNode.addEventListener(`click`, function() {
+    developNode.innerHTML = `Telegram Bot :D`
+});
 
 
 commandsNode.addEventListener(`click`, function() {
