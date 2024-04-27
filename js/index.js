@@ -11,10 +11,6 @@ bTextNode.addEventListener(`click`, function() {
     bTextNode.innerHTML = `Telegram Bot :D`
 });
 
-developNode.addEventListener(`click`, function() {
-    developNode.innerHTML = `Telegram Bot :D`
-});
-
 
 commandsNode.addEventListener(`click`, function() {
     mainNode.innerHTML = `<h3>Основные команды бота</h3>
