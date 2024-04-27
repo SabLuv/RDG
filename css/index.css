@@ -160,3 +160,11 @@ main {
 .donat:active {
   background-color: #32742d;
 }
+
+
+/* h3 */
+h3 {
+  font-size: 19px;
+  text-align: center;
+  padding: 10px;
+}
